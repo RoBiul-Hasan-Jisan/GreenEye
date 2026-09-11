@@ -29,7 +29,7 @@
    - **Disease Identification** — specific disease from 40+ categories
 5. **Results** — The diagnosis is saved to the database and appears immediately on the user's web dashboard, with health status, disease type, and historical tracking.
 
-![System Architecture](assets/architecture-diagram.svg)
+![System Architecture](architecture-diagram.svg)
 
 ---
 
@@ -48,7 +48,7 @@
 
 The pump/relay side is wired as: **NodeMCU → Relay (signal + GND) → 12V Pump**, powered from a separate 12V adapter, while the ESP32-CAM is wired to the FTDI programmer for flashing (5V, GND, U0R↔TX, U0T↔RX) and later runs standalone off 5V for image capture.
 
-![Wiring Diagram](assets/wiring-diagram.svg)
+![Wiring Diagram](wiring-diagram.svg)
 
 ### Prototype Enclosure
 
@@ -140,14 +140,11 @@ We're actively iterating on these — issues and pull requests are welcome.
 
 ---
 
-##  Assets
-
-All diagrams and the banner in this README live in [`assets/`](assets/) as editable SVGs (`banner.svg`, `architecture-diagram.svg`, `wiring-diagram.svg`), so they're easy to tweak if the hardware or pipeline changes.
 
 
 ---
 
-## 👥 Authors
+##  Authors
 
 Built as a team university IoT course project:
 
